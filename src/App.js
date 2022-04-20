@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     dictionaryApi();
-  }, [word]);
+  }, [word, dictionaryApi]);
 
   return (
     <div
